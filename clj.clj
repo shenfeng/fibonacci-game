@@ -6,5 +6,5 @@
 ;; java -cp ../rssminer/lib/clojure-1.4.0.jar clojure.main clj.clj
 (let [start (System/currentTimeMillis)
       result (f 40)]
-  (println (- (System/currentTimeMillis) start))
-  (println result))
+  (println result)
+  (println (- (System/currentTimeMillis) start)))

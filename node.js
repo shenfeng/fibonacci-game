@@ -5,4 +5,7 @@ function f (n) {
   return 1;
 }
 
+var start = new Date();
 console.log(f(40));
+var t = new Date() - start;
+console.log(t);
