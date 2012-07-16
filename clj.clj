@@ -1,4 +1,4 @@
-(defn f [^long n]
+(defn f ^long [^long n]
   (if (> n 1)
     (+ (f (- n 1)) (f (- n 2)))
     1))
